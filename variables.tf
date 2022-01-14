@@ -1,6 +1,6 @@
 region = "us-east-1"
-access_key = "AKIAVT3GTUGKTINNJEGH"
-secret_access = "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"
+access_key = "AKIAVT3GTEGH"
+secret_access = "DNrc+ASFG1w7SwYBC2wdkB"
 myvpc_cidr="10.0.0.0/24"
 mysubnet_cidr="10.0.0.0/25"
 myzone = "us-east-1a"
