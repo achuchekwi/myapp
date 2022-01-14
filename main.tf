@@ -92,7 +92,7 @@ resource "aws_instance" "master_server" {
   key_name = var.security_key
   associate_public_ip_address = var.public_ip
   tags = {
-    Name = "hbc_master"
+    Name = "koho_master"
   }
 }
 
@@ -106,7 +106,7 @@ resource "aws_instance" "slave_server" {
   key_name = var.security_key
   associate_public_ip_address = var.public_ip
   tags = {
-    Name = "hbc_slave"
+    Name = "koho_slave"
   }
 }
 
